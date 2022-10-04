@@ -34,9 +34,9 @@ const Card = ({ product }) => {
                         <h2 className="font-fraunces text-[36px] text-darkCyan">
                             {discountPrice}
                         </h2>
-                        <h4 className="text-grayishBlue line-through">
+                        <h3 className="text-grayishBlue line-through">
                             {originalPrice}
-                        </h4>
+                        </h3>
                     </div>
                     <button className="w-full bg-darkCyan flex items-center justify-center gap-2.5 py-3 text-white rounded-md hover:bg-darkerCyan">
                         <img src={shoppingCartLogo} alt="" />
