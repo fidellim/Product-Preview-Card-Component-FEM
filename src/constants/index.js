@@ -1,3 +1,7 @@
+import cardImageDesktop from '../images/image-product-desktop.jpg'
+import cardImageMobile from '../images/image-product-mobile.jpg'
+import shoppingCartLogo from '../images/icon-cart.svg'
+
 export const products = [
     {
         itemName: 'Perfume',
@@ -8,3 +12,5 @@ export const products = [
         originalPrice: '$169.99',
     },
 ]
+
+export { cardImageDesktop, cardImageMobile, shoppingCartLogo }
